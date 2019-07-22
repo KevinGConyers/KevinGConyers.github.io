@@ -1,28 +1,34 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Theme Simply Me</title>
+  <title>The Cove</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
- <style>
-  .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  </style>
-<body>
+ <body>
+	 <div class="container-fluid bg-1 text-center">
+  <h3>Kevin Conyers</h3>
+  <img src="./img/OctopusLineDrawingDarkNoBackground.png " width="45px" class="img-circle" alt="Octopus">
+  <h3>Shocktohp</h3>
+  </div>
+  <div class="container-fluid text-center"> 
 	{{ content }}
+  </div>
 <div class="container-fluid text-center">
-	<h3> More about me </h3>
-	<div class="col-md-4 text-center"> <h3><b>Personal Blog</b> </h3>
-	<h1>{{ page.title }}</h1>
+	<div class="col-md-4 text-center"> 
+		<h3><b>Personal Blog</b> </h3>
+		<h4> <ul class="posts">
+			{% for post in site.posts %}
+			    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			  {% endfor %}
+			</ul></h4>  
 	</div>
 	<div class="col-md-4 text-center">
-		<h3><b> Current Development Project </b></h3>
+		<h3><b><i> Big Personal Project</i> </b></h3>
 		<h4><p>Here you can find all the information about whatever my project I currently working on. Right now, I am working on ShockStohre. A command-line solution for password management. </p><p> <href=""</h4>   
 	</div>
 	<div class="col-md-4 text-center"> <h3><b>Octopus Arms Forge</b> </h3>   </div>

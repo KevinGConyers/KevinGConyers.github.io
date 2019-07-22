@@ -100,8 +100,21 @@ Browser Upgrade Prompt
 	padding: 0.2em 0;
 }
 
-
-
+/* ==========================================================================
+Backgrounds
+========================================================================== */
+.bg-1{
+	background-color: #1abc9c; /*Sea Green*/
+	color: #ffffff; /* white */
+}
+.dark-background {
+	color: #ffffff;
+	background: url(../img/DarkGreyWall.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 /* ==========================================================================
 Author's custom styles
@@ -163,7 +176,7 @@ Author's custom styles
 	align-items: center;
 }
 .placeholder {
- 	flex: 20%;
+	flex: 20%;
 }
 
 .main {
@@ -389,10 +402,4 @@ h3 {
 }
 
 
-/* ==========================================================================
-Backgrounds
-========================================================================== */
-.bg-1{
-	background-color: #1abc9c; /*Sea Grean*/
-	color: #ffffff; /* white */
-}
+
