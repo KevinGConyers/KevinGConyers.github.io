@@ -1,7 +1,7 @@
---------------------------------------------------------------------------
+---
 layout: post
 title: "Learning From C Part One: What I learned From making a simple UDP Calculator Client and Server"
----------------------------------------------------------------------------
+---
 Welcome to my series chronicling the hard won lessons I have received while
 attempting to do things (read: school projects and side projects) in the
 programming language of the gods, C. Why am I doing things in C, instead of some
