@@ -1,8 +1,8 @@
----------------------------------------------------------------------------
+---
 layout: post
 title "Seriously, am I in vim mode or not"
 date: 2019-11-03
---------------------------------------------------------------------------- 
+--- 
 
 ## I use vim
 I use vim on a daily basis. I edit code with it, write these blogs posts, rename
