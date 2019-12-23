@@ -1,6 +1,6 @@
 ---
 layout: post
-title "Seriously, am I in vim mode or not"
+title: "Seriously, am I in vim mode or not"
 date: 2019-12-22
 --- 
 ## I use vim
