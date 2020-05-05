@@ -1,5 +1,11 @@
-title: Midnight theme
-description: Midnight is a theme for GitHub Pages.
+title: Kevin Conyers' Hobby Hub
+description: >
+        This is my personal blog where I talk about my various hobby projects. These include but are not limited too,
+        Blacksmithing
+        Embedded Systems Projects
+        Other Coding Projects
+        
+        So have fun and take a look around!
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-midnight

@@ -1,3 +1,5 @@
 .vimrc
-_site/*
+_site
+*-cache/
+*/_site/*
 .sass-cache/*
