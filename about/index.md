@@ -1,7 +1,4 @@
 ---
 layout: about
 ---
-
-
-
-Testing about page
+Hello from markdown
