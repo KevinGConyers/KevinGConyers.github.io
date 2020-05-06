@@ -9,5 +9,5 @@ description: >
 google_analytics:
 theme: jekyll-theme-midnight
 home: https://kevinconyers.xyz
-about: https://kevinconyers.xyz/about/
+about: https://kevinconyers.xyz/about/about.html
 base_url: /blogs/
