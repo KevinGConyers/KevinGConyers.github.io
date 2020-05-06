@@ -6,6 +6,8 @@ description: >
         Other Coding Projects
         
         So have fun and take a look around!
-show_downloads: true
 google_analytics:
 theme: jekyll-theme-midnight
+home: https://kevinconyers.xyz
+about: https://kevinconyers.xyz/about
+base_url: /blogs/
