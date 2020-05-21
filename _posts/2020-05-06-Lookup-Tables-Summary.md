@@ -20,3 +20,7 @@ This is just the table of number of set bits in a given 4 bit number (0x0 - 0xF)
 int table[15] = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3, 4};    
               //{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
 ```
+
+# A note
+
+Lookup tables are generally faster than crunching the numbers, however, there may be limitations to memory access speed depending on where the table is being stored. In general, lookup tables stored in RAM are very fast, but wasteful of useful memory. If your access speed is faster than whatever algorithm generates a single value, then use the table, if not then maybe generation is the better choice.
